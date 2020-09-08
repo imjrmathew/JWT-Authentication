@@ -1,0 +1,30 @@
+Create a file named .env
+Inside the file,
+1, Create a env variable DATABASE_URL (It's a mongodb cluster key)
+2, Create an another env variable TOKEN_SECRET (it's a JWT secret key)
+
+
+
+Postman Testing
+
+Following are the Endpoints,
+
+1, localhost:3000/api/register
+
+        e.g: body => 
+        {
+            "name": "user1",
+            "username": "user1",
+            "password": "user1password"
+        }
+
+2, localhost:3000/api/login
+
+        e.g: body => 
+            {
+                "username": "user1",
+                "password": "user1password"
+            }
+
+3, localhost:3000/api/verify 
+        (This endpoint is used to verify the token)
