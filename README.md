@@ -20,6 +20,7 @@ npm install --save <packagename>
 * Inside the file, create 2 environment variables:
     1. **DATABASE_URL**     _It's a URL for [mongodb](https://account.mongodb.com/account/login) database connectivity._
     2. **TOKEN_SECRET**     _It's a secret key for [JWT](https://jwt.io/)._
+* Thats, it. Finally read the [Initial Setup](https://github.com/iamdonmathew/JWT-Authentication/blob/master/initial%20setup.txt) file
 
 &nbsp; 
 ## License
