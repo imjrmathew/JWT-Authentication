@@ -8,12 +8,12 @@
 ## Initial Setup
 &nbsp;
 * Clone the repository
-```bash
-git clone https://github.com/iamdonmathew/JWT-Authentication.git
+```diff
+- git clone https://github.com/iamdonmathew/JWT-Authentication.git
 ```
 * Install the dependencies
-```bash
-npm install --save <packagename>
+```diff
+- npm install --save <packagename>
 ```
 * Create a **.env** file
 * Inside the file, create 2 environment variables:
